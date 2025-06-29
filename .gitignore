@@ -1,0 +1,5 @@
+# ignore all the files insdie my nodemodule folder
+node_modules/
+
+# adding .env file to exclude secrets
+.env
