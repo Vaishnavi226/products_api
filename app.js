@@ -3,4 +3,10 @@ const express = require("express");
 
 const app = express(); // this will create a server instance called as app
 
+// all imported routes
+const product_routes = require("./src/routes/product.routes");
+
+// middlewares
+app.use("/api/products", product_routes);
+
 module.exports = app;
