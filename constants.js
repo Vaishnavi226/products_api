@@ -1,5 +1,7 @@
-export const enums = {
+const enums = {
   db: {
-    name: "Products",
+    name: "products_api",
   },
 };
+
+module.exports = enums;
